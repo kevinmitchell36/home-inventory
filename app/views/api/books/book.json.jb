@@ -1,0 +1,9 @@
+@books.map { |book|
+  {
+    title: book[:title],
+    author: book[:author],
+    world_location: book[:world_location],
+    skill_book: book[:skill_book],
+    home_id: book[:home_id]
+  }
+}

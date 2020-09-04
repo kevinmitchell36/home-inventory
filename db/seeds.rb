@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Book.create([
+  {title: "The Last Scabbard of Akatosh", author: "Tabar Vunqidh", world_location: "Gallows Rock", skill_book: true, home_id: 1},
+  {title: "Kolb and the Dragon", author: "Unknown", world_location: "Arcanaeum", skill_book: false, home_id: 1},
+  {title: "Lost Legends", author: "Talsgar the Elder", world_location: "Blue Palace", skill_book: false, home_id: 1}
+])

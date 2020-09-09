@@ -3,4 +3,6 @@ class Api::BooksController < ApplicationController
     @books = Book.all 
     render "book.json.jb"
   end
+
+  
 end

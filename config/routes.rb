@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   namespace :api do
-    get "/" => "books#index"
+    get "/books" => "books#index"
+    post "/books/:id" => "books#show"
   end
 end

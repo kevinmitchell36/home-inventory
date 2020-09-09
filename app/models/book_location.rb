@@ -1,0 +1,2 @@
+class BookLocation < ApplicationRecord
+end

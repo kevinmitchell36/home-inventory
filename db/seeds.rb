@@ -12,9 +12,17 @@
 #   {title: "Lost Legends", author: "Talsgar the Elder", world_location: "Blue Palace", skill_book: false, home_id: 1}
 # ])
 
-BookLocation.create([
-  {book_id: 1, home_id: 2},
-  {book_id: 2, home_id: 1},
-  {book_id: 3, home_id: 1},
-  {book_id: 1, home_id: 3}  
+# BookLocation.create([
+#   {book_id: 1, home_id: 2},
+#   {book_id: 2, home_id: 1},
+#   {book_id: 3, home_id: 1},
+#   {book_id: 1, home_id: 3}  
+# ])
+
+Home.create([
+  {title: "Winstead Manor", location: "Hjaalmarch"},
+  {title: "Lakeview Manor", location: "Falkreath"},
+  {title: "Heljarchen Hall", location: "The Pale"},
+  {title: "Breezehome", location: "Whiterun"},
+  {title: "Honeyside", location: "Riften"},
 ])
